@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xxx.mangoleben.mapper.LikeMapper">
+
+    <update id="updateLikeState">
+
+    </update>
+
+    <select id="getFavNumByClassicID" resultType="java.lang.Integer">
+      SELECT fav_num FROM ml_like WHERE classicID = #{calssicID}
+    </select>
+</mapper>

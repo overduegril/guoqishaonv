@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mango-leben.iml" filepath="$PROJECT_DIR$/mango-leben.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-book/mangoleben-book.iml" filepath="$PROJECT_DIR$/mangoleben-book/mangoleben-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-classic/mangoleben-classic.iml" filepath="$PROJECT_DIR$/mangoleben-classic/mangoleben-classic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-config/mangoleben-config.iml" filepath="$PROJECT_DIR$/mangoleben-config/mangoleben-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-config-client/mangoleben-config-client.iml" filepath="$PROJECT_DIR$/mangoleben-config-client/mangoleben-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-like/mangoleben-like.iml" filepath="$PROJECT_DIR$/mangoleben-like/mangoleben-like.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangoleben-web/mangoleben-web.iml" filepath="$PROJECT_DIR$/mangoleben-web/mangoleben-web.iml" />
+    </modules>
+  </component>
+</project>

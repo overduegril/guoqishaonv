@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xxx.mangoleben.mapper.ClassicMapper">
+
+    <select id="getLatestClassic" resultType="com.xxx.mangoleben.pojo.Classic">
+        SELECT * FROM ml_classic ORDER BY classicIndex DESC LIMIT 0,1
+    </select>
+
+    <select id="getNewClassic" resultType="com.xxx.mangoleben.pojo.Classic">
+         SELECT * FROM ml_classic WHERE classicIndex = #{classicIndex} + #{changeIndex}
+    </select>
+
+</mapper>

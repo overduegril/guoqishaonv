@@ -1,0 +1,11 @@
+server:
+  port: 9702
+spring:
+  application:
+    name: mangolebenWeb  #不同 单词之间使用 - 进行间隔会好一些。 类比所使用到的依赖。
+eureka:
+  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+    service-url:
+      defaultZone: http://wosz:147258369@localhost:9600/eureka #curl风格

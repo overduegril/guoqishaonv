@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="mangoleben-like" />
+        <module name="mangoleben-web" />
+        <module name="mangoleben-classic" />
+        <module name="mangoleben-config" />
+        <module name="mangoleben-book" />
+        <module name="mangoleben-config-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+      <module name="mango-leben" target="1.8" />
+      <module name="mangoleben-book" target="1.8" />
+      <module name="mangoleben-classic" target="1.8" />
+      <module name="mangoleben-config" target="1.8" />
+      <module name="mangoleben-config-client" target="1.8" />
+      <module name="mangoleben-like" target="1.8" />
+      <module name="mangoleben-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="mangoleben-book" options="-parameters" />
+      <module name="mangoleben-classic" options="-parameters" />
+      <module name="mangoleben-config" options="-parameters" />
+      <module name="mangoleben-config-client" options="-parameters" />
+      <module name="mangoleben-like" options="-parameters" />
+      <module name="mangoleben-web" options="-parameters" />
+    </option>
+  </component>
+</project>

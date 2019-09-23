@@ -1,0 +1,25 @@
+server:
+  port: 9701
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://wosz:147258369@localhost:9600/eureka #curl风格
+
+# 数据库相关配置
+spring:
+  application:
+    name: mangolebenLike
+  datasource:
+    url: jdbc:mysql:///mango_leben?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
